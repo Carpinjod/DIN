@@ -1,0 +1,7 @@
+body {
+    margin: 1 auto;
+}
+
+input:required:invalid {
+    border: 2px solid red;
+}

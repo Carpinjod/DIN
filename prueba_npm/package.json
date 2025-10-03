@@ -1,0 +1,12 @@
+{
+  "name": "prueba_npm",
+  "version": "1.0.0",
+  "description": "index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC"
+}

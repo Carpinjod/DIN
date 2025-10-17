@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="9.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Formulario de inscripción a Cyberwall</h1>
+
+    <form id="formulario">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" name="nombre" placeholder="Nom i cognoms..." required><br>
+
+        <label for="usuario">Create a user name:</label><br>
+        <input type="text" name="usuario" required><br>
+
+        <label for="contraseña">Create a password:</label><br>
+        <input type="text" name="contraseña" minlength="6" maxlength="12" required><br><br>
+
+        <label for="fechaNacimiento">Birthday:</label>
+        <input type="date" name="fechaNacimiento"><br>
+
+        <label for="listaDesp">I am</label>
+        <select name="listaDesp">
+            <option value="" disabled selected></option>
+            <option value="student">a student</option>
+            <option value="teacher">a teacher</option>
+            <option value="businessowner">a business owner</option>
+            <option value="self">self-employed</option>
+            <option value="other">other</option>
+        </select><br>
+
+        <label for="numTlf">Mobile phone:</label><br>
+        <input type="tel" name="numTlf" required pattern="[0-9]{9,15}"><br>
+
+        <label for="nivelIngles">Select your English level (0-10):</label><br>
+        <input type="range" name="nivelIngles" min="0" max="10"><br>
+
+        <input type="submit" value="Sing me up">
+
+    </form>
+    
+</body>
+</html>
